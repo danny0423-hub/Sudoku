@@ -1,0 +1,20 @@
+# 開發環境 Dockerfile
+FROM node:20-alpine
+
+# 設定工作目錄
+WORKDIR /app
+
+# 複製 package.json
+COPY package*.json ./
+
+# 安裝依賴
+RUN npm install
+
+# 複製所有檔案
+COPY . .
+
+# 暴露開發伺服器的 port (webpack-dev-server 預設是 8080)
+EXPOSE 8080
+
+# 啟動開發伺服器
+CMD ["npm", "start"]
