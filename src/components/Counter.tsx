@@ -11,7 +11,7 @@ const Counter: React.FC = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg">
         <h1 className="text-3xl font-bold text-center mb-4 text-blue-600">
-          計數器
+          計數器22
         </h1>
         <div className="text-6xl font-bold text-center mb-8">
           {count}
