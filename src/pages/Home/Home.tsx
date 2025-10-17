@@ -9,7 +9,7 @@ const Home: React.FC = () => {
           歡迎
         </h1>
         <p className="text-gray-600 text-center mb-8">
-          這是一個使用 React + Redux + TypeScript + React Router 的專案dwqdwqdwdwdwdwq
+          這是一個使用 React + Redux + TypeScript + React Router 的專案test branch
         </p>
         <div className="flex gap-4 justify-center">
           <Link
