@@ -1,3 +1,105 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 全域樣式 */
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-orange-50 via-amber-50 to-rose-50 text-neutral-900;
+    font-family: 'Inter', 'Noto Sans TC', system-ui, sans-serif;
+  }
+}
+
+/* 自訂元件樣式 */
+@layer components {
+  /* 按鈕 */
+  .btn {
+    @apply px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 active:scale-95;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 text-white shadow-warm hover:shadow-warm-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-secondary-500 to-secondary-600 text-white shadow-warm hover:shadow-warm-lg;
+  }
+  
+  .btn-accent {
+    @apply bg-gradient-to-r from-accent-500 to-accent-600 text-white shadow-warm hover:shadow-warm-lg;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-500 text-primary-600 hover:bg-primary-50 hover:border-primary-600;
+  }
+  
+  .btn-ghost {
+    @apply text-primary-600 hover:bg-primary-50;
+  }
+  
+  /* 卡片 */
+  .card {
+    @apply bg-white/90 backdrop-blur-sm rounded-2xl shadow-warm-md p-6 hover:shadow-warm-lg transition-all duration-300;
+  }
+  
+  .card-gradient {
+    @apply bg-gradient-to-br from-primary-50 to-secondary-50 rounded-2xl shadow-warm-md p-6;
+  }
+  
+  /* 輸入框 */
+  .input {
+    @apply w-full px-4 py-3 border-2 border-neutral-200 rounded-xl 
+           focus:outline-none focus:ring-4 focus:ring-primary-100 focus:border-primary-400
+           transition-all duration-300;
+  }
+  
+  /* 標題 */
+  .heading-gradient {
+    @apply bg-gradient-to-r from-primary-600 via-secondary-600 to-accent-600 
+           bg-clip-text text-transparent;
+  }
+  
+  /* 徽章 */
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .badge-primary {
+    @apply bg-primary-100 text-primary-700;
+  }
+  
+  .badge-secondary {
+    @apply bg-secondary-100 text-secondary-700;
+  }
+  
+  .badge-success {
+    @apply bg-success-100 text-success-700;
+  }
+  
+  /* 分隔線 */
+  .divider {
+    @apply h-px bg-gradient-to-r from-transparent via-primary-300 to-transparent;
+  }
+}
+
+/* 工具類 */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgba(249, 115, 22, 0.5),
+                   0 0 20px rgba(249, 115, 22, 0.3);
+    }
+    to {
+      text-shadow: 0 0 20px rgba(249, 115, 22, 0.8),
+                   0 0 30px rgba(249, 115, 22, 0.5);
+    }
+  }
+}

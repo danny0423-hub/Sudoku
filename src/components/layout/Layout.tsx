@@ -41,6 +41,14 @@ const Layout: React.FC = () => {
               >
                 關於
               </Link>
+              <Link
+                to="/warm-theme"
+                className={`hover:text-blue-400 transition ${
+                  isActive('/warm-theme') ? 'text-blue-400 font-semibold' : ''
+                }`}
+              >
+                暖色系主題
+              </Link>
             </div>
           </div>
         </div>
