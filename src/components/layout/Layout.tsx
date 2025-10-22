@@ -1,5 +1,7 @@
+import LanguageSwitcher from '../../pages/langSwitch/LangSwitch';
 import React from 'react';
 import { Outlet, Link, useLocation } from 'react-router-dom';
+
 
 const Layout: React.FC = () => {
   const location = useLocation();
@@ -49,6 +51,7 @@ const Layout: React.FC = () => {
               >
                 暖色系主題
               </Link>
+              <LanguageSwitcher />
             </div>
           </div>
         </div>

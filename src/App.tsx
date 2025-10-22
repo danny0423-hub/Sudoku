@@ -6,6 +6,7 @@ import Counter from './components/Counter';
 import About from './pages/about/About';
 import NotFound from './pages/notFound/NotFound';
 import WarmThemeExample from './pages/WarmThemeExample/WarmThemeExample';
+import LanguageSwitcher from './pages/langSwitch/LangSwitch';
 
 
 const App: React.FC = () => {
@@ -17,7 +18,8 @@ const App: React.FC = () => {
           <Route path="counter" element={<Counter />} />
           <Route path="about" element={<About />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="warm-theme" element={<WarmThemeExample/>} />
+          <Route path="warm-theme" element={<WarmThemeExample />} />
+          <Route path="language-switcher" element={<LanguageSwitcher />} />
         </Route>
       </Routes>
     </BrowserRouter>

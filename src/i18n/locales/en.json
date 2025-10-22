@@ -1,0 +1,97 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "settings": "Settings",
+    "language": "Language",
+    "logout": "Logout",
+    "login": "Login",
+    "signup": "Sign Up",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "contact": "Contact",
+    "counter": "Counter"
+  },
+  "home": {
+    "title": "Welcome to Our Platform",
+    "subtitle": "A modern and innovative solution",
+    "description": "Experience the warmth and energy of our design system. Build impressive user experiences with our vibrant color palette.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "readyToStart": "Ready to Get Started?",
+    "readyDescription": "Use our warm and energetic design system to create impressive user experiences."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are committed to providing the best user experience",
+    "mission": "Our Mission",
+    "vision": "Our Vision",
+    "values": "Our Values"
+  },
+  "features": {
+    "passion": "Passion",
+    "passionDesc": "Vibrant and warm design",
+    "innovation": "Innovation",
+    "innovationDesc": "Modern user experience",
+    "focus": "Focus",
+    "focusDesc": "User-centered approach"
+  },
+  "form": {
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "message": "Message",
+    "messagePlaceholder": "Enter your message...",
+    "submitForm": "Submit Form",
+    "name": "Name",
+    "namePlaceholder": "Enter your name"
+  },
+  "counter": {
+    "title": "Counter",
+    "increment": "Increment",
+    "decrement": "Decrement",
+    "reset": "Reset",
+    "currentValue": "Current Value"
+  },
+  "theme": {
+    "title": "Warm Theme",
+    "subtitle": "Warm, Energetic, and Full of Life Design System",
+    "colorSystem": "Color System",
+    "buttons": "Button Styles",
+    "formElements": "Form Elements",
+    "primary": "Primary",
+    "secondary": "Secondary",
+    "accent": "Accent",
+    "success": "Success",
+    "warning": "Warning",
+    "mainColor": "Main Color",
+    "secondaryColor": "Secondary Color",
+    "accentColor": "Accent Color"
+  },
+  "error": {
+    "404": "Page Not Found",
+    "404Description": "The page you are looking for does not exist",
+    "goHome": "Go Home",
+    "somethingWrong": "Something went wrong",
+    "tryAgain": "Try Again"
+  }
+}

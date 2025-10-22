@@ -1,0 +1,97 @@
+{
+  "common": {
+    "welcome": "歡迎",
+    "home": "首頁",
+    "about": "關於",
+    "contact": "聯絡",
+    "settings": "設定",
+    "language": "語言",
+    "logout": "登出",
+    "login": "登入",
+    "signup": "註冊",
+    "save": "儲存",
+    "cancel": "取消",
+    "delete": "刪除",
+    "edit": "編輯",
+    "confirm": "確認",
+    "back": "返回",
+    "next": "下一步",
+    "submit": "提交",
+    "search": "搜尋",
+    "loading": "載入中...",
+    "error": "錯誤",
+    "success": "成功"
+  },
+  "nav": {
+    "home": "首頁",
+    "features": "功能特色",
+    "pricing": "價格方案",
+    "about": "關於我們",
+    "contact": "聯絡我們",
+    "counter": "計數器"
+  },
+  "home": {
+    "title": "歡迎來到我們的平台",
+    "subtitle": "現代化且創新的解決方案",
+    "description": "體驗我們設計系統的溫暖與活力。使用充滿生命力的色彩搭配，打造令人印象深刻的用戶體驗。",
+    "getStarted": "立即開始",
+    "learnMore": "了解更多",
+    "readyToStart": "準備好開始了嗎？",
+    "readyDescription": "使用我們溫暖而充滿活力的設計系統，打造令人印象深刻的用戶體驗。"
+  },
+  "about": {
+    "title": "關於我們",
+    "description": "我們致力於提供最佳的用戶體驗",
+    "mission": "我們的使命",
+    "vision": "我們的願景",
+    "values": "我們的價值觀"
+  },
+  "features": {
+    "passion": "熱情",
+    "passionDesc": "充滿活力與溫暖的設計",
+    "innovation": "創新",
+    "innovationDesc": "現代化的用戶體驗",
+    "focus": "目標",
+    "focusDesc": "專注於用戶需求"
+  },
+  "form": {
+    "email": "電子郵件",
+    "emailPlaceholder": "your@email.com",
+    "password": "密碼",
+    "passwordPlaceholder": "請輸入密碼",
+    "message": "訊息內容",
+    "messagePlaceholder": "輸入您的訊息...",
+    "submitForm": "送出表單",
+    "name": "姓名",
+    "namePlaceholder": "請輸入姓名"
+  },
+  "counter": {
+    "title": "計數器",
+    "increment": "增加",
+    "decrement": "減少",
+    "reset": "重置",
+    "currentValue": "目前數值"
+  },
+  "theme": {
+    "title": "暖色系主題",
+    "subtitle": "溫暖、活力、充滿能量的設計系統",
+    "colorSystem": "顏色系統",
+    "buttons": "按鈕樣式",
+    "formElements": "表單元素",
+    "primary": "主色調",
+    "secondary": "次要色",
+    "accent": "強調色",
+    "success": "成功",
+    "warning": "警告",
+    "mainColor": "主色",
+    "secondaryColor": "次要色",
+    "accentColor": "強調色"
+  },
+  "error": {
+    "404": "找不到頁面",
+    "404Description": "您所尋找的頁面不存在",
+    "goHome": "返回首頁",
+    "somethingWrong": "發生錯誤",
+    "tryAgain": "重試"
+  }
+}
